@@ -1,0 +1,87 @@
+
+# TDD Project
+
+## Descrição
+
+Este é um projeto de exemplo para demonstrar o uso de Test-Driven Development (TDD) com Mocha, Chai, Sinon e Supertest. O projeto inclui testes unitários, testes de cobertura e testes de integração.
+
+## Requisitos
+
+- Node.js (versão 14 ou superior)
+- npm (versão 6 ou superior)
+
+## Instalação
+
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/seu-usuario/tdd-project.git
+    cd tdd-project
+    ```
+
+2. Instale as dependências:
+    ```sh
+    npm install
+    ```
+
+## Scripts
+
+- `test`: Executa todos os testes.
+    ```sh
+    npm run test
+    ```
+
+- `test:dev`: Executa os testes em modo de desenvolvimento, assistindo por mudanças.
+    ```sh
+    npm run test:dev
+    ```
+
+- `test:cov`: Executa os testes e gera um relatório de cobertura de código.
+    ```sh
+    npm run test:cov
+    ```
+
+- `test:e2e`: Executa os testes de ponta a ponta.
+    ```sh
+    npm run test:e2e
+    ```
+
+- `seed`: Popula o banco de dados com dados de exemplo.
+    ```sh
+    npm run seed
+    ```
+
+- `start`: Inicia a aplicação.
+    ```sh
+    npm start
+    ```
+
+## Estrutura do Projeto
+
+```plaintext
+.
+├── api/                # Código da aplicação
+├── src/                # Código da aplicação
+│   ├── controllers/           # Testes unitários
+│   ├── entities/           # Testes unitários
+│   ├── factories/           # Testes unitários
+│   ├── repositories/           # Testes unitários
+│   ├── services/           # Testes unitários
+├── seed/               # Scripts para popular o banco de dados
+├── test/               # Testes
+│   ├── unit/           # Testes unitários
+│   ├── integration/    # Testes de integração
+│   └── e2e/            # Testes de ponta a ponta
+├── index.js            # Ponto de entrada da aplicação
+├── package.json        # Arquivo de configuração do npm
+└── README.md           # Este arquivo
+```
+
+## Dependências
+
+- [@faker-js/faker](https://www.npmjs.com/package/@faker-js/faker): Biblioteca para gerar dados falsos.
+- [chai](https://www.npmjs.com/package/chai): Biblioteca de asserções para testes.
+- [mocha](https://www.npmjs.com/package/mocha): Framework de testes.
+- [nyc](https://www.npmjs.com/package/nyc): Ferramenta para gerar relatórios de cobertura de código.
+- [sinon](https://www.npmjs.com/package/sinon): Biblioteca para mocks, stubs e spies.
+- [supertest](https://www.npmjs.com/package/supertest): Biblioteca para testar APIs HTTP.
+

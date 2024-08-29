@@ -1,0 +1,23 @@
+[
+    {
+        "id": "9a2d01c9-a889-4736-b181-e752558d44d1",
+        "name": "Challenger",
+        "releaseYear": 2023,
+        "availabe": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "19efc8c4-e933-46e1-8641-b47cc018f4a5",
+        "name": "Jetta",
+        "releaseYear": 2024,
+        "availabe": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "8b85f654-2cd4-4340-9407-78763384bdb2",
+        "name": "Model 3",
+        "releaseYear": 2024,
+        "availabe": true,
+        "gasAvailable": true
+    }
+]
